@@ -1,0 +1,53 @@
+{
+  "name": "vole-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for rapid vole development",
+  "bin": {
+    "vole": "bin/www"
+  },
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxs24sxl/vole-cli"
+  },
+  "keywords": [
+    "vole-cli",
+    "vole"
+  ],
+  "author": "lxs24sxl",
+  "license": "ISC",
+  "hooks": {
+    "pre-commit": "npm run lint"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "fs-extra": "^9.0.1",
+    "husky": "^4.2.5",
+    "inquirer": "^7.3.2",
+    "leven": "^3.1.0",
+    "launch-editor": "^2.2.1",
+    "lodash.clonedeep": "^4.5.0",
+    "ora": "^4.0.4",
+    "read-pkg": "^5.2.0",
+    "semver": "^7.3.2",
+    "strip-ansi": "^6.0.0",
+    "validate-npm-package-name": "^3.0.0",
+    "execa": "^4.0.3",
+    "minimist": "^1.2.5",
+    "chalk": "^4.1.0",
+    "download-git-repo": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+design
+*.log
+packages/test
+test
+dist
+temp
+.vuerc
+.version
+.versions
+.changelog
+package-lock.json
+yarn.lock
